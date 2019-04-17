@@ -2,13 +2,13 @@
 # By: Nick from CoffeeBeforeArch
 
 .PHONY : all
-all: implementation.o simple_class
-
-implementation.o : implementation.cpp
-	g++ -c implementation.cpp
+all : implementation simple_class
 
 simple_class : simple_class.cpp implementation.o
 	g++ -o simple_class simple_class.cpp implementation.o
+
+implementation : implementation.cpp
+	g++ -c implementation.cpp
 
 .PHONY : clean
 clean : 
