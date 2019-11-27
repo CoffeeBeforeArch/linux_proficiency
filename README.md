@@ -13,3 +13,4 @@ Text Editor: VIM
 ## Concepts covered in each video
 | Video | Concepts | Files |
 | ----- | -------- | ----- |
+|<a href=https://youtu.be/XXenyBgYZ3U>Linux Proficiency: Intro to Makefiles</a> | Make, Makefiles, Rules, Targets, Prerequisites, Recipes, Implicit Rules, .PHONY | <a href=https://github.com/CoffeeBeforeArch/linux_proficiency/blob/master/make_and_makefiles/classes_intro/Makefile>Makefile</a>
