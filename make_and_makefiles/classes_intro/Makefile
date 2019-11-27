@@ -12,5 +12,5 @@ implementation : implementation.cpp
 
 .PHONY : clean
 clean : 
-	rm *.o
-	rm simple_class
+	rm -rf *.o
+	rm -rf simple_class
